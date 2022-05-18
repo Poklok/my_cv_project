@@ -643,6 +643,9 @@ div.blog-post {
     font-weight: 300;
     letter-spacing: 0.8px;
     font-family: "Poppins", sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 
