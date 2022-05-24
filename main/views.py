@@ -13,7 +13,6 @@ class MainPage(ListView):
     context_object_name = 'posts'
 
 
-
 class ProjectPage(ListView):
     model = Project
     template_name = 'work.html'
