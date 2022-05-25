@@ -647,6 +647,14 @@ div.blog-post {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+.blog-post #test_p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #696868;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    font-family: "Poppins", sans-serif;
+}
 
 
 
