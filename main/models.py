@@ -40,6 +40,8 @@ class Project(models.Model):
     img_project = models.ImageField(upload_to='img/project', default=True)
     skills = models.TextField(max_length=200)
 
+    def __str__(self):
+        return self.about_project
     # def get_absolut_url(self):
     #     return reverse('post_detail', kwargs={'pk': self.pk})
 
