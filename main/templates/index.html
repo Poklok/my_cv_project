@@ -81,7 +81,7 @@
 
                         <div class="sub-title">
                             <h2>My Blog</h2>
-                            <a href="contact.html"><i class="icon-envelope"></i></a>
+                            <a href="{% url 'contact' %}"><i class="icon-envelope"></i></a>
                         </div>
 
 
@@ -94,7 +94,7 @@
                                     <h1>{{ post.title }}</h1>
                                 </div>
                                 <div class="post-info">
-                                    <span>{{ post.created }} / by <a href="#" target="_blank">{{post.author}}</a></span>
+                                    <span>{{ post.created }} / by <a href="" target="_blank">{{post.author}}</a></span>
                                 </div>
                                 <p>{{post.content}}</p>
                                 <a href="{{ post.get_absolut_url }}"
@@ -121,7 +121,7 @@
                             <li><a href="{% url 'main' %}">Home</a></li>
                             <li><a href="{% url 'about' %}">About</a></li>
                             <li><a href="{% url 'projects' %}">Work</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="{% url 'contact' %}">Contact</a></li>
                         </ul>
 
                     </footer>
